@@ -9,7 +9,7 @@ import avatorme2 from "../assets/avatorme2.png";
 export default function Home() {
 
   const roles = useMemo(
-  () => ["Web Developer", "Java Full Stack","Dsa Java"],
+  () => ["Web Developer", "Java Full Stack","Dsa Java","Spring Boot"],
   []
 );
 
@@ -77,8 +77,7 @@ useEffect(() => {
   return (
     <section
       id="home"
-      className="w-full h-screen relative bg-black overflow-hidden"
-    >
+className="w-full min-h-screen relative bg-black overflow-hidden"    >
       <ParticlesBackground />
 
       <div className="absolute inset-0">
@@ -116,7 +115,7 @@ useEffect(() => {
         "
         />
       </div>
-      <div className="relative z-10 h-full w-full max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2">
+      <div className="relative z-10 min-h-screen w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2">
   <div className="flex flex-col justify-center h-full text-center lg:text-left relative">
     <div className="w-full lg:pr-24 mx-auto max-w-48rem">
 

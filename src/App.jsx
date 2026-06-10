@@ -6,8 +6,6 @@ import Footer from "./Section/Footer";
 import Home from "./Section/Home";
 import Projects from "./Section/Projects";
 import Skills from "./Section/Skills";
-import Testimnials from "./Section/Testimnials";
-// import PaticlesBackground from "./Components/PaticlesBackground";
 import CustomCursor from "./Components/CustomCursor";
 import React from "react";
 import IntroAnimation from "./Components/IntroAnimation";
@@ -29,7 +27,6 @@ export default function App() {
       <Skills />
       <Projects />
       <Experience />
-      <Testimnials />
       <Contact />
       <Footer />
     </div>
